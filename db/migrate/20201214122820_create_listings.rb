@@ -7,7 +7,7 @@ class CreateListings < ActiveRecord::Migration[6.0]
       t.string :description
       t.integer :longitude
       t.integer :latitude
-      t.boolean :favroite
+      t.boolean :favorite
 
       t.timestamps
     end

@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 2020_12_14_124819) do
     t.string "description"
     t.integer "longitude"
     t.integer "latitude"
-    t.boolean "favroite"
+    t.boolean "favorite"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
